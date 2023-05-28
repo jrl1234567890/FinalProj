@@ -1,0 +1,15 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background: url(images/build.jpg);
+    background-repeat: no-repeat;
+    background-size: 250vh;
+    background: cover;
+}
+.formControl {
+    width: 100%;
+    border-radius: 1%;
+    height: 5%;
+}

@@ -1,0 +1,33 @@
+body {
+    background-color: chocolate;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    color: aliceblue;
+}
+
+.item1 {
+    font-family: mt bodoni black;
+}
+h1 {
+    font-size: 50px;
+    color: white;
+    font-family: algerian;
+}
+.fa-phone {
+    color: white;
+}
+.fa-mailbox {
+    color: white;
+}
+.educational {
+    color: white;
+    font-size: 30px;
+}
+.fa-house {
+    color: aliceblue;
+}

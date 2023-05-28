@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8f2e9931fa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="survey.css">
+    <title>survey</title>
+</head>
+<body>
+<div class="container">
+        <div class="container header justify-content-center">
+                    <header class="head">
+                        <h1 id="survey" class="text-white">
+                        This is our Survey form
+                        </h1>
+                        <p id="disctription" class="text-white">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ab nostrum obcaecati. Doloribus veniam alias vero, quibusdam veritatis expedita sapiente ad consectetur recusandae fugit a nisi atque, ipsa enim iusto.
+                        </p>    
+                    </header>
+                    <form action="" id="survey-form"></form>
+                    <div class="form-group text-white">
+                        <label for="">Name</label>
+                        <input type="text" name="name" id="name" class="formControl" placeholder="Enter your Name"required>
+                    </div>
+                    <!--End of text Section-->
+
+                    <!--Type of Email Section-->
+                    <form action="" id="survey-form"></form>
+                    <div class="form-group text-white">
+                        <label for="Email">Email</label>
+                        <input type="Email" name="Email" id="Email" class="formControl" placeholder="Enter your Email"required>
+                    </div>
+                    <!--End Of Email Section-->
+
+                    <!--Type number Section-->
+                    <form action="" id="survey-form"></form>
+                    <div class="form-group text-white">
+                        <label for="number">phone</label>
+                        <input type="phone" name="phone" id="phone" class="formControl " placeholder="Enter your Number"required>
+                    </div>
+                    <!--end of number section-->
+
+                    <!--Adress Section-->
+                    <form action="" id="survey-form"></form>
+                    <div class="form-group text-white">
+                        <label for="">Address<span class="clue"></span></label>
+                        <input type="address" name="name" id="address" class="formControl" placeholder="Enter your Address"required>
+                    </div>
+                    <!--end of number section-->
+
+                    <!--Select Section-->   
+                        <div class="form-group text-white">
+                            <p id="quest">describe you optional best role</p>
+                            <select name="role" id="dropsdown" class="formControl1" required>
+                                <option value="" disabled selected>select the current role</option>
+                                <br>
+                                <option value="student">Student</option>
+                                <br>
+                                <option value="Instructor">Instructor</option>
+                                <br>
+                                <option value="job">Jobs</option>
+                                <br>
+                                <option value="others">Ohers</option>
+                            </select>
+                        </div>
+                    <!--end of select section-->
+
+                    <!--Radio Button Selection-->
+                    <div class="form-groups text-white">
+                        <p id="quest"></p> <h1 class="text-info">choose your Course</h1></p>
+                        <label for="radio">
+                            <input type="radio" name="source" value="friends" class="inputRadio text-dark" checked="friends">BSHM
+                        </label>
+                        <label for="radio">
+                            <input type="radio" name="source" value="friends" class="inputRadio" checked="friends">BSIT
+                        </label>
+                        <label for="radio">
+                            <input type="radio" name="source" value="friends" class="inputRadio" checked="friends">BEED
+                        </label>
+                        <label for="radio">
+                            <input type="radio" name="source" value="friends" class="inputRadio" checked="friends">BSED
+                        </label>
+                    </div>
+                    <!--End of radio selection-->
+
+                    <!--Check Boc Section-->
+                        <div class="form-group text-white">
+                            <p id=""> <b class="text-danger">Would  You Like To Share And Subscribe</b></p>
+                            <label for="">
+                                <input type="checkbox" name="prefer" class="checkbox" value="back-end-dev">Back End Developer              
+                            </label>
+                            <br>
+                            <label for="">
+                                <input type="checkbox" name="prefer" class="checkbox" value="back-end-dev">Carpenter            
+                            </label>
+                            <br>
+                            <label for="">
+                                <input type="checkbox" name="prefer" class="checkbox" value="back-end-dev">Engineer           
+                            </label>
+                            <br>
+                            <label for="">
+                                <input type="checkbox" name="prefer" class="checkbox" value="back-end-dev">Fisherman           
+                            </label>
+                        </div>
+                    <!--End of Check Boc section-->
+
+                    <!--Text Area Section-->
+                        <div class="form-group">
+                            <p id="quest"> <b class=" text-danger">text area</b></p>
+                            <textarea name="feedback" id="feedback" cols="30" rows="5" class="textarea bg-dark  text-white" placeholder="enter a text"></textarea>
+                        </div>
+                    <!--End of text area section-->
+                    <div class="formgroup">
+                        <button type="submit" id="submit" class="btn bg-dark text-white">
+                            submit
+                        </button>
+                    </div>
+                    <!--submit Button-->
+                </form>
+        </div> 
+        <a href="index.html"><i class="fa-solid fa-house"></i></a>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

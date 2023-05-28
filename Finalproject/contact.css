@@ -1,0 +1,20 @@
+.header {
+   background: url(images/water.jpg);
+   background-repeat: no-repeat;
+   background-size: 200vh;
+   background: cover;
+}
+body {
+   background: url(images/darkk.jpg);
+   background-repeat: no-repeat;
+   background-size: 250vh;
+   background: cover;
+}
+.phar {
+   font-size: 30px;
+}
+
+
+
+
+
